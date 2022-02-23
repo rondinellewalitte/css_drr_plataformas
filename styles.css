@@ -1,0 +1,68 @@
+
+/* INICIO | REMOVER BARRA DE PROGRESSO CURSOS */
+
+.container.lis_aulas .row .col-md-12 .table-responsive .progress.progress-striped.active.progresso-curso{
+  display: none;
+}
+
+/* FIM | REMOVER BARRA DE PROGRESSO CURSOS */
+
+
+/* INICIO | LINK NÃO CONSEGUE SE AUTENTICAR */
+
+[href="#autenticacao"] {
+  display: none;
+}
+
+/* FIM | LINK NÃO CONSEGUE SE AUTENTICAR */
+
+/*	INICIO | REMOVER NOSSOS NUMEROS*/
+
+.rodape .numeros { display: none; }
+
+/*  FIM | REMOVER NOSSOS NUMEROS	*/
+
+/*	INICIO | REMOVER ICONE GRAFICO DENTRO DO CURSO  */
+
+td.text-center.icone_grafico {
+  display: none;
+}
+
+/*  FIM | REMOVER ICONE GRAFICO DENTRO DO CURSO	*/
+
+/*	INICIO | REMOVER ANDAMENTO CURSO, DENTRO DO CURSO  */
+
+td.val_md.text-center.info_progresso {
+  display: none;
+}
+
+/*  FIM | REMOVER ANDAMENTO CURSO, DENTRO DO CURSO	*/
+
+/*	INICIO | REMOVER A PALAVRA COORDENAÇÃO DO CURSO + SCRIPT  */
+
+.nome_professor strong {
+  display: none;
+}
+
+.alterar_nome_professor strong {
+  display: block;
+}
+
+/*  FIM | REMOVER A PALAVRA COORDENAÇÃO DO CURSO + SCRIPT	*/
+
+
+/*	INICIO | REMOVER BOTÃO SUGESTÃO	*/
+
+.urp-no-hide {
+  display: none !important;
+}
+
+/*	FIM | REMOVER BOTÃO SUGESTÃO */
+
+/*	INICIO | REMOVER RODAPÉ CONTATO	*/
+
+.col-sm-4.col-md-4.contato {
+  display: none;
+}
+
+/*	FIM | REMOVER RODAPÉ CONTATO	*/
