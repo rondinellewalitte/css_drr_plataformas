@@ -1,9 +1,9 @@
 <script>
-  /*	INICIO | SCRIPT ADICIONAR PROFESSOR NO LUGAR DE COORDENAÇÃO  */
+  /*	INICIO | SCRIPT ADICIONAR PROFESSOR NO LUGAR DE COORDENAÇÃO + CSS  */
 
-  $(".val_md.text-center.nome_professor").prepend("<div class='nada'><strong>Professor(a)</strong></div>");
+  $(".val_md.text-center.nome_professor").prepend("<div class='alterar_nome_professor'><strong>Professor(a)</strong></div>");
 
-  /*  FIM | SCRIPT	ADICIONAR PROFESSOR NO LUGAR DE COORDENAÇÃO */
+  /*  FIM | SCRIPT	ADICIONAR PROFESSOR NO LUGAR DE COORDENAÇÃO + CSS */
 </script>
 
 <script>
@@ -14,4 +14,19 @@
   }, 2000);
 
   /*	FIM |  COLOCAR LOGO DRR */
+</script>
+
+
+<script>
+  /*	INICIO |  NOME AO LADO DA FOTO */
+
+  document.querySelector('.foto b').remove();
+  var get_nome = document.querySelector('.foto img');
+  var $wrapper = document.querySelector('.foto');
+  firstChild = $wrapper.firstChild;
+  HTMLStrong = document.createElement('strong');
+  HTMLStrong.innerText = get_nome.alt;
+  $wrapper.appendChild(HTMLStrong, firstChild);
+
+  /*	FIM |  NOME AO LADO DA FOTO */
 </script>

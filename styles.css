@@ -66,3 +66,24 @@ td.val_md.text-center.info_progresso {
 }
 
 /*	FIM | REMOVER RODAPÉ CONTATO	*/
+
+
+/*	INICIO | NOME AO LADO DA FOTO DEIXANDO ELE BRANCO */
+
+a#dropdownMenutopo strong {
+  color: #fff !important;
+}
+
+/*	FIM |  NOME AO LADO DA FOTO DEIXANDO ELE BRANCO */
+
+
+/*	FIM |  QUEBRA DE TEXTO MOBILE */
+
+@media only screen and (max-width: 800px) {
+  .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+    white-space: normal;
+  }
+}
+
+/*	FIM |  QUEBRA DE TEXTO MOBILE */
+
