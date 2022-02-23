@@ -77,7 +77,7 @@ a#dropdownMenutopo strong {
 /*	FIM |  NOME AO LADO DA FOTO DEIXANDO ELE BRANCO */
 
 
-/*	FIM |  QUEBRA DE TEXTO MOBILE */
+/*	INICIO |  QUEBRA DE TEXTO MOBILE */
 
 @media only screen and (max-width: 800px) {
   .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
@@ -86,4 +86,25 @@ a#dropdownMenutopo strong {
 }
 
 /*	FIM |  QUEBRA DE TEXTO MOBILE */
+
+/*	INICIO |  REMOVER TRASPARENCIA BARRA */
+
+.navbar-default:after, .news, .navbar-default .item_sub:hover ul li a, .det-loja .avaliacao .bg-color, .det-loja .conteudo .abas .social {
+  opacity: 1;
+}
+
+/*	FIM |  REMOVER TRASPARENCIA BARRA */
+
+
+/*	INICIO |  REMOVER FORUM DA BARRA + SCRIPT */
+
+li.active.forum {
+  display: none;
+}
+
+li.active.forum.estudos {
+  display: block;
+}
+
+/*	FIM |  REMOVER FORUM DA BARRA + SCRIPT */
 
