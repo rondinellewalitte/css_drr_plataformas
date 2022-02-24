@@ -108,3 +108,25 @@ li.active.forum.estudos {
 
 /*	FIM |  REMOVER FORUM DA BARRA + SCRIPT */
 
+/*	INICIO |  REMOVER FORUM DA BARRA + SCRIPT */
+
+.container.forum .row .col-sm-3.col-md-5 {
+  display: none;
+}
+
+.container.forum .row .col-sm-9.col-md-7 {
+  display: none;
+}
+
+.container.forum .row.estudos .col-sm-3.col-md-5.estudos {
+  display: block;
+}
+
+.container.forum .row.estudos .col-sm-9.col-md-7.estudos {
+  display: block;
+}
+
+
+/*	FIM |  REMOVER FORUM DA BARRA + SCRIPT */
+
+

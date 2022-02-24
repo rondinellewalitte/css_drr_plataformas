@@ -37,5 +37,49 @@
 
   $(".nav.navbar-nav").prepend('<li class="active forum estudos"><a href="https://' + window.location.hostname + '/forum/"><i class="fa fa-comments-o"></i>Grupo de Estudos</a></li>');
 
-  /*	FIM |  REMOVER FORUM DA BARRA + SCRIPT */
+  /*	FIM |  REMOVER FORUM DA BARRA E COLOCANDO GRUPO DE ESTUDOS + SCRIPT */
 </script>
+
+<script>
+
+  /*	FIM |  TROCANDO A PALAVRA FORUM DENTRO DA PAGINA E COLOCANDO GRUPO DE ESTUDOS + SCRIPT */
+
+  $(".container.forum").prepend('<div class="row estudos"><div class="col-sm-3 col-md-5 estudos"><h3><i class="fa fa-comments-o"></i> Grupo de Estudos </h3></div><div class="col-sm-9 col-md-7 estudos"><div class="busca"><div class="row"><div class=" col-md-11 "><div id="search_forum" action="https://' + window.location.hostname + '/forum/search/" class="pull-right"><input id="param_category" type="hidden" name="category" value="motive-se"><input id="category" type="hidden" name="category" value="0"><div class="input-group"><input name="topic" id="topic_forum" placeholder="Buscar no Grupo de Estudos" value="" type="text" autofocus="" class="form-control input-lg search pull-right"><span class="input-group-btn"><button class="btn btn-custom btn-lg btn_search_forum" type="button"><i class="fa fa-search"></i></button></span></div></div></div><div class="col-md-1"><a href="#novo_topico" title="" data-toggle="modal" class="pull-right btn-radius btn btn-lg btn-custom novo_topico" data-tooltip="tooltip" data-original-title="Novo"><i class="fa fa-plus"></i></a></div></div></div></div></div>');
+
+  /*	FIM |  TROCANDO A PALAVRA FORUM DENTRO DA PAGINA E COLOCANDO GRUPO DE ESTUDOS + SCRIPT */
+
+</script>
+
+
+
+<div class="row estudos">
+  <div class="col-sm-3 col-md-5">
+    <h3><i class="fa fa-comments-o"></i> Fórum </h3>
+  </div>
+  <div class="col-sm-9 col-md-7">
+    <div class="busca">
+      <div class="row">
+        <div class=" col-md-11 ">
+          <div id="search_forum" action="https://urubiciaulas.com.br/forum/search/" class="pull-right">
+            <input id="param_category" type="hidden" name="category" value="motive-se">
+            <input id="category" type="hidden" name="category" value="0">
+
+            <div class="input-group">
+              <input name="topic" id="topic_forum" placeholder="Buscar no Fórum" value="" type="text" autofocus=""
+                class="form-control input-lg search pull-right">
+              <span class="input-group-btn">
+                <button class="btn btn-custom btn-lg btn_search_forum" type="button"><i
+                    class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <a href="#novo_topico" title="" data-toggle="modal"
+            class="pull-right btn-radius btn btn-lg btn-custom novo_topico" data-tooltip="tooltip"
+            data-original-title="Novo"><i class="fa fa-plus"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
