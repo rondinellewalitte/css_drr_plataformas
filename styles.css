@@ -1,4 +1,24 @@
 
+/* INICIO | REMOVER CAMPOS DO COMENTARIO {UPLOAD IMAGEM VIDEOS DOCUMENTOS}*/
+
+button#insertImage-2 {
+  display: none;
+}
+
+button#insertFile-2 {
+  display: none;
+}
+button#insertVideo-2 {
+  display: none;
+}
+
+.fr-quick-insert {
+  display: none;
+}
+/* FIM | REMOVER CAMPOS DO COMENTARIO {UPLOAD IMAGEM VIDEOS DOCUMENTOS}*/
+
+
+
 /*	INICIO | SCRIPT ADICIONAR HELPDESK NO CURSO OBS:TROCAR LINK + CSS  */
 
 .img_professor a {
@@ -6,6 +26,10 @@
 }
 .btn_ss {
   margin-top: 18px;
+}
+
+td.val_md.text-center.nome_professor {
+  display: none;
 }
 
 /*	FIM | SCRIPT ADICIONAR HELPDESK NO CURSO OBS:TROCAR LINK + CSS  */
