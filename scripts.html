@@ -1,4 +1,18 @@
 <script>
+  /*	INICIO | SCRIPT ADICIONAR HELPDESK NO CURSO OBS:TROCAR LINK + CSS  */
+
+  help_desk = document.querySelector(".img_professor");
+
+  if (help_desk) {
+    $(".img_professor").prepend("<form action='https://tatauiaulas.com.br/p/20f0bf302abe7b42ecc7ad3db4185d91/'><button type='submit' class='btn btn-lg btnPofile pull-left btn-custom btn_ss'>HelpDesk</button></form>");
+  }
+
+  /*  FIM | SCRIPT	ADICIONAR HELPDESK NO CURSO OBS:TROCAR LINK + CSS */
+</script>
+
+
+
+<script>
   /*	INICIO | SCRIPT ADICIONAR PROFESSOR NO LUGAR DE COORDENAÇÃO + CSS  */
 
   $(".val_md.text-center.nome_professor").prepend("<div class='alterar_nome_professor'><strong>Professor(a)</strong></div>");

@@ -1,4 +1,16 @@
 
+/*	INICIO | SCRIPT ADICIONAR HELPDESK NO CURSO OBS:TROCAR LINK + CSS  */
+
+.img_professor a {
+  display: none;
+}
+.btn_ss {
+  margin-top: 18px;
+}
+
+/*	FIM | SCRIPT ADICIONAR HELPDESK NO CURSO OBS:TROCAR LINK + CSS  */
+
+
 /* INICIO | REMOVER BARRA DE PROGRESSO CURSOS */
 
 .container.lis_aulas .row .col-md-12 .table-responsive .progress.progress-striped.active.progresso-curso{
