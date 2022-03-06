@@ -1,4 +1,36 @@
 <script>
+  /*	INICIO | SCRIPT REMOVER  O EDITAR SENHA ALUNO  */
+
+  if (window.location.href === 'https://' + window.location.hostname + '/profile/') {
+    if (user_tipo === '0') {
+      document.querySelector(".panel.panel-default").style.display = "none";
+    }
+  }
+
+  /*	FIM | SCRIPT REMOVER O EDITAR SENHA ALUNO  */
+</script>
+
+
+
+<script>
+
+  /*	INICIO | SCRIPT ADICIONAR MESSAGEM NA TELA  */
+
+  url_atual = window.location.href;
+  if (url_atual === 'https://saeecopuff.com.br/home/') {
+    var script_pop = document.createElement('script');
+    var script_pop2 = document.createElement('script');
+    script_pop.src = "https://cadastrodrr.com.br/bioep.min.js";
+    script_pop2.src = "https://cadastrodrr.com.br/editar.js";
+    document.body.appendChild(script_pop);
+    document.body.appendChild(script_pop2);
+  }
+
+  /*  FIM | SCRIPT ADICIONAR MESSAGEM NA TELA */
+
+</script>
+
+<script>
   /*	INICIO | SCRIPT ADICIONAR HELPDESK NO CURSO OBS:TROCAR LINK + CSS  */
 
   help_desk = document.querySelector(".img_professor");
