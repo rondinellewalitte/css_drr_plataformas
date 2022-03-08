@@ -1,3 +1,11 @@
+/*	INICIO  |  REMOVER CONTATO DO RODAPE*/
+
+li.form-contato {
+  display: none;
+}
+
+/*	FIM  |  REMOVER CONTATO DO RODAPE*/
+
 /*	INICIO  |  BANNER VIDEO MESSAGEM  + CSS*/
 
 button#btn_uff_modal {
