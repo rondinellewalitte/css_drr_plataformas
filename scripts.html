@@ -1,4 +1,36 @@
 <script>
+  /*	INICIO  |  BANNER VIDEO MESSAGEM + CSS */
+  $(document).ready(function () {
+    var url = $("#idCertificatevideo").attr('src');
+
+    $("#videoCertificate").on('hide.bs.modal', function () {
+      $("#idCertificatevideo").attr('src', '');
+    });
+
+    $("#videoCertificate").on('show.bs.modal', function () {
+      $("#idCertificatevideo").attr('src', url);
+    });
+  });
+  /*	FIM     | BANNER VIDEO MESSAGEM  +CSS */
+</script>
+
+<script>
+  /*	INICIO  |  BANNER VIDEO MESSAGEM +CSS */
+  $('.rodape').append('<div class="container"><button type="button" class="btn btn-danger" id="btn_uff_modal" data-toggle="modal" data-target="#videoCertificate">video</button></div><div class="modal fade" id="videoCertificate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">Certificado</h5></button></div><div class="modal-body"><iframe id="idCertificatevideo" src="https://www.youtube.com/embed/641FNJZ9X2o" frameborder="0" allowfullscreen></iframe></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button></div></div></div></div>');
+/*	FIM     | BANNER VIDEO MESSAGEM  */
+</script>
+
+<script>
+  /*	INICIO  |  BANNER VIDEO MESSAGEM +CSS */
+  url_atual = window.location.href;
+  if (url_atual === 'https://drraulaboa.com.br/home' || url_atual === 'https://drraulaboa.com.br/home/') {
+    $("#btn_uff_modal").trigger('click');
+  }
+  /*	FIM     | BANNER VIDEO MESSAGEM  +CSS*/
+</script>
+
+
+<script>
   /*	INICIO | SCRIPT REMOVER  O EDITAR SENHA ALUNO  */
 
   if (window.location.href === 'https://' + window.location.hostname + '/profile/') {

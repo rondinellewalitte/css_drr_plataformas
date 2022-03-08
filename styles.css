@@ -1,3 +1,21 @@
+/*	INICIO  |  BANNER VIDEO MESSAGEM  + CSS*/
+
+button#btn_uff_modal {
+  display: none;
+}
+
+.video_modal_uff {
+padding: 2rem 0rem;
+}
+
+#idCertificatevideo {
+width: 100%;
+height: auto;
+min-height: 300px;
+}
+
+/*	FIM  |  BANNER VIDEO MESSAGEM + CSS*/
+
 
 /* INICIO | REMOVER CAMPOS DO COMENTARIO {UPLOAD IMAGEM VIDEOS DOCUMENTOS}*/
 
@@ -67,6 +85,10 @@ td.text-center.icone_grafico {
 /*  FIM | REMOVER ICONE GRAFICO DENTRO DO CURSO	*/
 
 /*	INICIO | REMOVER ANDAMENTO CURSO, DENTRO DO CURSO  */
+
+.progress.progress-striped.active.progresso-curso {
+  display: none;
+}
 
 td.val_md.text-center.info_progresso {
   display: none;
